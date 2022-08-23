@@ -15,17 +15,11 @@ public class ConsoleApplication {
 
 		BufferedReader reader = new BufferedReader(
 				new InputStreamReader(System.in));
-		/*
-		 * System.out.println("===== [ Olá turma 2 Java IBM ] =======");
-		 * 
-		 * System.out.println("Digite o seu nome:");
-		 * String nome = reader.readLine();
-		 * 
-		 * System.out.println("O nome digitado foi: " + nome);
-		 */
 
-		String[] nomes = new String[3];
-		System.out.println("Digite três nomes: ");
+		System.out.println("--------- [  Turma-2 Java IBM ] --------");
+
+		String[] nomes = new String[5];
+		System.out.println("Digite cinco nomes: ");
 		for (int i = 0; i < nomes.length; i++) {
 			nomes[i] = reader.readLine();
 		}
